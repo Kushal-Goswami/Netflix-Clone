@@ -129,9 +129,10 @@ body {
 
 .main-heading {
     color: white;
-    font-size: 20px;
-    margin-bottom: 20px;
-    padding: 0 136px;
+    font-size: 22px;
+	font-weight: bolder;
+    margin-bottom: 18px;
+    padding: 0 120px;
 }
 
 .card-items{
@@ -156,4 +157,39 @@ body {
 	position: absolute;
 	bottom: 18px;
 	right: 14px;
+}
+
+.more-content{
+	width: 990px;
+	margin: 0 120px;
+	color: white;
+}
+
+.faq{
+	color: white;
+    font-size: 22px;
+	font-weight: 500;
+    margin-bottom: 18px;
+}
+
+.parent{
+	display: flex;
+	background-color: rgb(45, 45, 45);
+    color: rgb(255, 255, 255);
+	align-items: center;
+	justify-content: space-between;
+	padding: 25px;
+	margin-bottom: 10px;
+	transition: .3s;
+}
+
+.parent:hover{
+	background-color: rgb(81, 80, 80);
+	cursor: pointer;
+}
+
+.questions{
+	font-size: 22px;
+	font-weight: bolder;
+	
 }
